@@ -35,7 +35,7 @@ export default class Lottie extends React.Component {
 
   componentWillUpdate(nextProps /* , nextState */) {
     /* Recreate the animation handle if the data is changed */
-    if (this.options.animationData !== nextProps.options.animationData) {
+    if (this.options.animationData !== nextProps.options.animationData || this.options.path !== nextProps.options.path) {
       this.deRegisterEvents(this.props.eventListeners);
       this.destroy();
       this.options = {...this.options, ...nextProps.options};
