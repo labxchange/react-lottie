@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import lottie from 'lottie-web';
 
 export default class Lottie extends React.Component {
+  // Test comment
   componentDidMount() {
     const {
       options,
