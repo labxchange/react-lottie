@@ -165,7 +165,7 @@ export default class Lottie extends React.Component {
         title={title}
         role={ariaRole}
         aria-label={ariaLabel}
-        tabIndex="0"
+        tabIndex="-1"
       />
     );
   }
@@ -193,7 +193,7 @@ Lottie.defaultProps = {
   isStopped: false,
   isPaused: false,
   speed: 1,
-  ariaRole: 'button',
+  ariaRole: '',
   ariaLabel: 'animation',
   isClickToPauseDisabled: false,
   title: '',
