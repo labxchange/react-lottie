@@ -239,7 +239,7 @@ var Lottie = function (_React$Component) {
           title: title,
           role: ariaRole,
           'aria-label': ariaLabel,
-          tabIndex: '-1'
+          tabIndex: null
         })
       );
     }
