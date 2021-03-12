@@ -69,6 +69,8 @@ var Lottie = function (_React$Component) {
 
   (0, _createClass3.default)(Lottie, [{
     key: 'componentDidMount',
+
+    // Test comment
     value: function componentDidMount() {
       var _props = this.props,
           options = _props.options,
@@ -237,7 +239,7 @@ var Lottie = function (_React$Component) {
           title: title,
           role: ariaRole,
           'aria-label': ariaLabel,
-          tabIndex: '0'
+          tabIndex: '-1'
         })
       );
     }
@@ -270,7 +272,7 @@ Lottie.defaultProps = {
   isStopped: false,
   isPaused: false,
   speed: 1,
-  ariaRole: 'button',
+  ariaRole: '',
   ariaLabel: 'animation',
   isClickToPauseDisabled: false,
   title: ''
