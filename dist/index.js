@@ -238,8 +238,7 @@ var Lottie = function (_React$Component) {
           onClick: onClickHandler,
           title: title,
           role: ariaRole,
-          'aria-label': ariaLabel,
-          tabIndex: null
+          'aria-label': ariaLabel
         })
       );
     }

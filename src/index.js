@@ -165,7 +165,6 @@ export default class Lottie extends React.Component {
         title={title}
         role={ariaRole}
         aria-label={ariaLabel}
-        tabIndex={null}
       />
     );
   }
